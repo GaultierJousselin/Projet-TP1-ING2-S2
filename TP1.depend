@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1519726475 source:c:\users\gault\documents\informatique\ing2\s2\tp1\main.cpp
+	<iostream>
+	<cstdlib>
+	"Arete.h"
+	"Sommet.h"
+
+1520324352 c:\users\gault\documents\informatique\ing2\s2\tp1\include\arete.h
+	"Sommet.h"
+
+1520324304 c:\users\gault\documents\informatique\ing2\s2\tp1\include\sommet.h
+	<cstdlib>
+	<string>
+
+1519726400 source:c:\users\gault\documents\informatique\ing2\s2\tp1\src\arete.cpp
+	"Arete.h"
+
+1520323182 source:c:\users\gault\documents\informatique\ing2\s2\tp1\src\sommet.cpp
+	<string>
+	"Sommet.h"
+
