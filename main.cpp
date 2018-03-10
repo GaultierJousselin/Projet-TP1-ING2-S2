@@ -3,6 +3,9 @@
 
 #include "Arete.h"
 #include "Sommet.h"
+#include "fichier.h"
+
+
 using namespace std;
 
 int main()

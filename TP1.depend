@@ -19,3 +19,33 @@
 	<string>
 	"Sommet.h"
 
+1520680982 source:c:\users\gaultier\documents\github\projet-tp1-ing2-s2\src\arete.cpp
+	"Arete.h"
+
+1520680982 c:\users\gaultier\documents\github\projet-tp1-ing2-s2\include\arete.h
+	"Sommet.h"
+
+1520689194 c:\users\gaultier\documents\github\projet-tp1-ing2-s2\include\sommet.h
+	<cstdlib>
+	<string>
+
+1520689149 source:c:\users\gaultier\documents\github\projet-tp1-ing2-s2\main.cpp
+	<iostream>
+	<cstdlib>
+	"Arete.h"
+	"Sommet.h"
+	"fichier.h"
+
+1520689149 c:\users\gaultier\documents\github\projet-tp1-ing2-s2\include\fichier.h
+
+1520689234 source:c:\users\gaultier\documents\github\projet-tp1-ing2-s2\src\fichier.cpp
+	"fichier.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<string>
+
+1520689149 source:c:\users\gaultier\documents\github\projet-tp1-ing2-s2\src\sommet.cpp
+	<string>
+	"Sommet.h"
+
