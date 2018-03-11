@@ -15,7 +15,5 @@ int main()
     std::cin >> NameFile;
     conseil.usefile(NameFile);
     conseil.display();
-
-    cout << "Hello world!" << endl;
     return 0;
 }

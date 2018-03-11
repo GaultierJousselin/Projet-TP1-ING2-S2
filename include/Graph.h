@@ -1,17 +1,20 @@
 #ifndef GRAPH_H
 #define GRAPH_H
 
-#include "Arete.h"
-#include "Sommet.h"
-
 #include <vector>
+#include <iostream>
+#include <cstdlib>
+#include <fstream>
+
+#include "Sommet.h"
+#include "Arete.h"
 
 class Graph
 {
     private:
         std::vector <Arete> m_arete;
-        int m_order;
         std::vector <Sommet> m_sommet;
+        int m_order;
 
     public:
         Graph();
