@@ -10,11 +10,13 @@ Graph::~Graph()
     //dtor
 }
 
-void Graph::usefile(std::string namefile)
+int Graph::LoadFile(std::string namefile)
 {
+    bool done = false;
     std::string influ1, influ2;
     int forder;
     std::ifstream file(namefile, std::ios::in);
+    ///Le if verifie si le fichier a pu être ouvert.
     if(file)
     {
         file >> forder;
@@ -35,13 +37,18 @@ void Graph::usefile(std::string namefile)
             getline(file, influ2);
             m_arete.push_back(Arete(Sommet(influ1), Sommet(influ2)));
         }
+        done = true;
         file.close();
     }
     else
+    {
         std::cout << "Le fichier " << namefile << " n'est pas utilisable." << std::endl;
+        done = false;
+    }
+    return done;
 }
 
-void Graph::display()
+void Graph::DisplayInfluences()
 {
     std::cout << std::endl << "Voici comment les influenceurs tirent les ficeles entre eux." << std::endl << std::endl;
     ///Ici je parcours le vecteur d'arete du graph et j'affiche le nom des influenceurs ainsi que de leurs influencés

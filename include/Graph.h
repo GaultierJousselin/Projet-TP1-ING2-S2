@@ -27,8 +27,8 @@ class Graph
         std::vector <Sommet> Getsommet() { return m_sommet; }
         void Setsommet(std::vector <Sommet> val) { m_sommet = val; }
 
-        void usefile (std::string namefile);
-        void display();
+        int LoadFile(std::string namefile);
+        void DisplayInfluences();
 
     protected:
 
