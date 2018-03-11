@@ -1,5 +1,5 @@
 ///Ce programme a été réalisé par Bazin Paul et Jousselin Gaultier du TD05. Il a été finit le 11/03/2018.
-
+///Lien du GitHub utilisé : https://github.com/LyBanjo/Projet-TP1-ING2-S2 .
 #include <iostream>
 #include <cstdlib>
 
