@@ -1,3 +1,5 @@
+///Ce programme a été réalisé par Bazin Paul et Jousselin Gaultier du TD05. Il a été finit le 11/03/2018.
+
 #include <iostream>
 #include <cstdlib>
 
