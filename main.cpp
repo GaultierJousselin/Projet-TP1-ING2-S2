@@ -12,17 +12,19 @@ int main()
 {
     bool done = false;
     std::string NameFile;
-    Graph conseil;
+    Graph * conseil;
+    conseil = new Graph;
     /// Ici nous demandons le nom du fichier texte à ouvrir.
     std::cout << "Veuillez nous indiquez le nom du fichier a ouvrir : " << std::endl;
     std::cin >> NameFile;
-    done = conseil.LoadFile(NameFile);
+    done = conseil->LoadFile(NameFile);
     while (done == false)
     {
         std::cout << "Veuillez nous indiquez le nom du fichier a ouvrir : " << std::endl;
         std::cin >> NameFile;
-        done = conseil.LoadFile(NameFile);
+        done = conseil->LoadFile(NameFile);
     }
-    conseil.DisplayInfluences();
+    conseil->DisplayInfluences();
+    delete conseil;
     return 0;
 }

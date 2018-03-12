@@ -54,7 +54,7 @@ void Graph::DisplayInfluences()
     ///Ici je parcours le vecteur d'arete du graph et j'affiche le nom des influenceurs ainsi que de leurs influencés
     for(auto elem : m_arete)
     {
-        std::cout << elem.m_s1.m_noms << " est le pantin de :" << std::endl;
-        std::cout << elem.m_s2.m_noms << std::endl;
+        std::cout << elem.m_s2.m_noms << " est le pantin de :" << std::endl;
+        std::cout << elem.m_s1.m_noms << std::endl;
     }
 }
